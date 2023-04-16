@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Festival</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
@@ -13,9 +15,9 @@
   <header class="header">
     <img src="./images/logo.png" class="logo" />
     <ul class="menu">
-      <li class="menu-item">Контакти</li>
-      <li class="menu-item">Головна</li>
-      <li class="menu-item">Програма</li>
+      <li class="menu-item"><a href="#">Контакти</a></li>
+      <li class="menu-item"><a href="#">Головна</a></li>
+      <li class="menu-item"><a href="#">Програма</a></li>
       <li class="menu-item button"><a href="#">Як потрапити</a></li>
     </ul>
   </header>
@@ -35,9 +37,94 @@
       </div>
     </section>
     <section class="second-screen">
-      <div class="first-card">
+      <div class="programm">
+        <h1 class="programm-header">Програма фестивалю</h1>
+        <h2 class="programm-info">3 сцени, щоб добре й із задоволенням провести час</h2>
+        <p class="add-info">Усі сцени розташовані так, щоб вам було зручно ходити <br /> між ними, і вони одна одну не
+          глушили
+        </p>
       </div>
-    </section>
+      <div class="cards">
+        <div class="first-card">
+          <div class="row">
+            <div class="col-sm-5">
+              <h1 class="card-header">Сцена Перемоги</h1>
+              <h3 class="card-header-sm">Розбудова України після війни</h3>
+              <h4 class="card-info">Виступ Президента України
+                <p class="time">10:00-12:00</p>
+              </h4>
+              <h4 class="card-info">Виступ представників ЄС
+                <p class="time">13:00-14:00</p>
+              </h4>
+              <h4 class="card-info">Виступ представників НАТО
+                <p class="time">14:00-15:00</p>
+              </h4>
+              <h4 class="card-info">Гімн України
+                <p class="time">21:25-21:30</p>
+              </h4>
+            </div>
+            <div class="col-sm-7">
+              <img src="./images/Сцена 1.png" alt="scene-1" class="card-img first" width="71%" />
+            </div>
+          </div>
+        </div>
+        <div class="second-card">
+          <div class="row">
+            <div class="col-sm-5">
+              <h1 class="card-header music">Сцена "Музика"</h1>
+              <h4 class="card-info">Артем Квасоваров
+                <p class="time">14:00-15:00</p>
+              </h4>
+              <h4 class="card-info">Степан Мега
+                <p class="time">16:00-17:00</p>
+              </h4>
+              <h4 class="card-info">Гурт “Протитіла”
+                <p class="time">17:00-18:00</p>
+              </h4>
+              <h4 class="card-info">Віктор Петрик
+                <p class="time">18:00-19:00</p>
+              </h4>
+              <h4 class="card-info">Гурт “Діти Електриків”
+                <p class="time">19:00-20:00</p>
+              </h4>
+              <h4 class="card-info">Гурт “Надвірна”
+                <p class="time">20:00-21:00</p>
+              </h4>
+            </div>
+            <div class="col-sm-7">
+              <img src="./images/Сцена 2.png" alt="scene-1" class="card-img second" width="71%" />
+            </div>
+          </div>
+        </div>
+        <div class="third-card">
+          <h1 class="card-header kids">Сцена "Майстер-класи для дітей"</h1>
+          <div class="row">
+            <div class="col-sm-5">
+              <h4 class="card-info">Музей науки
+                <p class="time">14:00-15:00</p>
+              </h4>
+              <h4 class="card-info">Майстер-клас з ліплення
+                <p class="time">16:00-17:00</p>
+              </h4>
+              <h4 class="card-info">Майстер-клас з машинобудування
+                <p class="time">17:00-18:00</p>
+              </h4>
+              <h4 class="card-info">Майстер-клас з роботехінки
+                <p class="time">18:00-19:00</p>
+              </h4>
+              <h4 class="card-info">Майстер-клас з малювання хною
+                <p class="time">19:00-20:00</p>
+              </h4>
+            </div>
+            <div class="col-sm-7">
+              <img src="./images/Сцена 3.png" alt="scene-1" class="card-img third" width="71%" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-info">
+        <a href="#" class="button-more" text-center>Дізнатися більше</a>
+      </div>
     </section>
   </main>
 </body>

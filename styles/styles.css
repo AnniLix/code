@@ -48,6 +48,24 @@ a {
   text-transform: uppercase;
 }
 
+.more-info {
+  margin: 60px 0 47px 0;
+}
+
+.button-more {
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  width: 262px;
+  height: 59px;
+  padding: 21px 35px;
+  background-color: #7ae5fd;
+  border-radius: 80px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .main-header {
   margin: 0;
   font-weight: 800;
@@ -76,10 +94,140 @@ a {
 }
 
 .flag {
-  margin-top: -706px;
+  margin-top: -693px;
   margin-left: 406px;
   display: flex;
   justify-content: right;
   width: 73.6%;
-  height: 877px;
+  height: 862px;
+}
+
+.programm {
+  margin: 143px 328px 0 355px;
+}
+
+.programm-header {
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 60px;
+  line-height: 94.9%;
+  text-transform: uppercase;
+}
+
+.programm-info {
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 96.9%;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.add-info {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #73a6b1;
+  margin-bottom: 72px;
+}
+
+.cards {
+  width: 1303px;
+  left: 100px;
+  top: 1105px;
+  margin: 0 106px 30px 106px;
+  padding: 40px 0 0 40px;
+  background-color: #f1fdff;
+  border-radius: 10px;
+}
+
+.first-card {
+  height: 586px;
+}
+
+.second-card {
+  height: 731px;
+}
+
+.card-header {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 94.9%;
+  letter-spacing: -0.02em;
+  margin: 0;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.card-header-sm {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 96.9%;
+  color: #000000;
+  margin: 0;
+  padding-bottom: 45px;
+  padding-top: 10px;
+}
+
+.music,
+.kids {
+  margin-bottom: 45px;
+}
+
+.card-info {
+  padding-bottom: 50px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 96.9%;
+  color: #000000;
+}
+
+.time {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 96.9%;
+  color: #3d8c9d;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+}
+
+.first {
+  margin-top: 12px;
+  height: 467px;
+  max-width: 88%;
+  margin-left: 41px;
+}
+
+.second {
+  margin-top: 88px;
+  height: 480px;
+  max-width: 88%;
+  margin-left: 41px;
+}
+
+.third {
+  margin-top: 0;
+  height: 470px;
+  max-width: 88%;
+  margin-left: 41px;
+}
+
+.button-more:hover,
+.button:hover {
+  transition: all 0.5s ease;
+  color: white;
+  background-color: #000000;
+}
+
+.menu-item:hover {
+  color: #1698b2;
 }
